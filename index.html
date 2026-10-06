@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Madhav Trivedi | Software Engineer</title>
+<meta name="description" content="Madhav Trivedi, software engineer in Mumbai building .NET, Angular and AWS backends that stay correct under load.">
+<meta name="author" content="Madhav Trivedi">
+<meta property="og:title" content="Madhav Trivedi | Software Engineer">
+<meta property="og:description" content="Backends that stay correct under load. .NET, Angular, AWS, PostgreSQL, RabbitMQ.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://madhavtrivedi.github.io/">
+<meta name="theme-color" content="#0F1211">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230F1211'/%3E%3Crect x='6' y='6' width='52' height='52' fill='none' stroke='%23F0A34A' stroke-width='4'/%3E%3Ctext x='32' y='41' font-family='monospace' font-size='24' font-weight='700' fill='%23F0A34A' text-anchor='middle'%3EMT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+:root{--accent:#F0A34A}
+body{margin:0;background:#0F1211}
+section[id]{scroll-margin-top:24px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+a{color:#E9ECE6;text-decoration:none}
+a:hover{color:#FFFFFF}
+.navlink:hover{color:#FFFFFF}
+.btn-primary:hover{filter:brightness(1.08)}
+.btn-ghost:hover{background:#1C2120}
+.proj-link:hover{text-decoration:underline;text-underline-offset:4px}
+::selection{background:#F0A34A;color:#121212}
+</style>
+</head>
+<body>
+<div style="background: #0F1211; color: #E9ECE6; font-family: 'Schibsted Grotesk', 'Helvetica Neue', system-ui, sans-serif; font-size: 17px; line-height: 1.6; min-height: 100vh; -webkit-font-smoothing: antialiased">
+
+  <!-- NAV -->
+  <header style="border-bottom: 1px solid #232927">
+    <nav aria-label="Primary" style="max-width: 1200px; margin: 0 auto; padding: 20px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+      <a href="#top" style="display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: -0.01em">
+        <span style="display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border: 1.5px solid var(--accent); color: var(--accent); font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 14px; font-weight: 700">MT</span>
+        <span>Madhav Trivedi</span>
+      </a>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 28px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.02em">
+        <a class="navlink" href="#work" style="color: #A9B1AC; padding: 12px 0">01 Work</a>
+        <a class="navlink" href="#projects" style="color: #A9B1AC; padding: 12px 0">02 Projects</a>
+        <a class="navlink" href="#stack" style="color: #A9B1AC; padding: 12px 0">03 Stack</a>
+        <a class="navlink" href="#contact" style="color: #A9B1AC; padding: 12px 0">04 Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 80px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 56px; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 28px">
+      <div style="display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #A9B1AC">
+        <span style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent)"></span>
+        <span>Software Engineer · Mumbai, India · Open to opportunities</span>
+      </div>
+      <h1 style="margin: 0; font-size: clamp(44px, 7vw, 88px); line-height: 0.98; letter-spacing: -0.035em; font-weight: 800; text-wrap: balance">I build backends that stay correct under load.</h1>
+      <p style="margin: 0; max-width: 34em; font-size: 19px; color: #B9C0BB; text-wrap: pretty">I'm Madhav, a software engineer with 2+ years shipping production systems in C#, .NET, Angular and AWS: async services, REST APIs, and the unglamorous work of making transactions, queues and concurrency behave.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 8px">
+        <a class="btn-primary" href="#projects" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; background: var(--accent); color: #121212; font-weight: 700; font-size: 16px">
+          See the projects
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"></path></svg>
+        </a>
+        <a class="btn-ghost" href="resume.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; border: 1px solid #3A423F; color: #E9ECE6; font-weight: 600; font-size: 16px">
+          Download résumé
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"></path></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- k6 terminal card -->
+    <figure style="margin: 0; background: #151918; border: 1px solid #262C2A; box-shadow: 0 40px 80px -30px rgba(0,0,0,0.7); font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 14px; line-height: 1.75">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 18px; border-bottom: 1px solid #262C2A; color: #8E9792; font-size: 12px">
+        <div style="display: flex; gap: 7px">
+          <span style="width: 10px; height: 10px; border-radius: 50%; background: #3A423F"></span>
+          <span style="width: 10px; height: 10px; border-radius: 50%; background: #3A423F"></span>
+          <span style="width: 10px; height: 10px; border-radius: 50%; background: #3A423F"></span>
+        </div>
+        <span>payment-ledger / load-test</span>
+      </div>
+      <div style="padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 2px; overflow-x: auto">
+        <div style="color: #8E9792"><span style="color: var(--accent)">$</span> k6 run transfers.js --duration 60s</div>
+        <div style="height: 10px"></div>
+        <div style="display: flex; justify-content: space-between; gap: 16px"><span style="color: #8E9792">throughput</span><span>400 transfers/s</span></div>
+        <div style="display: flex; justify-content: space-between; gap: 16px"><span style="color: #8E9792">latency p95</span><span>26.5 ms</span></div>
+        <div style="display: flex; justify-content: space-between; gap: 16px"><span style="color: #8E9792">request errors</span><span>0</span></div>
+        <div style="display: flex; justify-content: space-between; gap: 16px"><span style="color: #8E9792">transactions</span><span>116,018</span></div>
+        <div style="display: flex; justify-content: space-between; gap: 16px"><span style="color: #8E9792">unbalanced</span><span style="color: var(--accent); font-weight: 700">0</span></div>
+        <div style="display: flex; justify-content: space-between; gap: 16px"><span style="color: #8E9792">outbox backlog</span><span>15,246 drained in 39 s</span></div>
+        <div style="height: 10px"></div>
+        <div style="color: var(--accent)">✓ all checks passed</div>
+      </div>
+      <figcaption style="padding: 12px 22px; border-top: 1px solid #262C2A; color: #8E9792; font-size: 12px">Double-entry wallet API · .NET 10 · PostgreSQL · RabbitMQ</figcaption>
+    </figure>
+  </section>
+
+  <!-- PROOF STRIP -->
+  <section aria-label="Highlights" style="border-top: 1px solid #232927; border-bottom: 1px solid #232927; background: #121615">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr))">
+      <div style="padding: 36px 24px 36px 0; display: flex; flex-direction: column; gap: 6px">
+        <div style="font-size: 44px; font-weight: 800; letter-spacing: -0.03em; line-height: 1">2+ yrs</div>
+        <div style="font-size: 15px; color: #A9B1AC">full-time, shipping production .NET &amp; Angular</div>
+      </div>
+      <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 6px">
+        <div style="font-size: 44px; font-weight: 800; letter-spacing: -0.03em; line-height: 1">2,000</div>
+        <div style="font-size: 15px; color: #A9B1AC">concurrent bidders at 81 ms p95, zero errors</div>
+      </div>
+      <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 6px">
+        <div style="font-size: 44px; font-weight: 800; letter-spacing: -0.03em; line-height: 1">~35%</div>
+        <div style="font-size: 15px; color: #A9B1AC">less authoring time from an AI question generator</div>
+      </div>
+      <div style="padding: 36px 0 36px 24px; display: flex; flex-direction: column; gap: 6px">
+        <div style="font-size: 44px; font-weight: 800; letter-spacing: -0.03em; line-height: 1">1 GB</div>
+        <div style="font-size: 15px; color: #A9B1AC">QTI packages validated, de-duplicated and scanned</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="work" style="max-width: 1200px; margin: 0 auto; padding: 112px 32px 48px; display: flex; flex-direction: column; gap: 48px">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px">
+      <h2 style="margin: 0; font-size: clamp(34px, 4.5vw, 52px); letter-spacing: -0.03em; line-height: 1.05; font-weight: 800">Where I work</h2>
+      <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent)">01 / Experience</span>
+    </div>
+
+    <article style="border-top: 1px solid #2E3532; padding-top: 36px; display: flex; flex-wrap: wrap; gap: 32px 64px">
+      <div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 8px">
+        <h3 style="margin: 0; font-size: 28px; letter-spacing: -0.02em; line-height: 1.15; font-weight: 700">Zeus Learning</h3>
+        <div style="font-size: 17px; color: #C9CFCB">Software Engineer</div>
+        <div style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #8E9792; padding-top: 6px">Jan 2024 to Present<br>Mumbai, India</div>
+      </div>
+      <ul style="flex: 999 1 560px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+        <li style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid #232927"><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent); padding-top: 3px">→</span><span>Shipped two .NET 8 RabbitMQ export services with resumable checkpoints, retries, dead-letter queues and alerting.</span></li>
+        <li style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid #232927"><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent); padding-top: 3px">→</span><span>Engineered QTI import workflows for packages up to 1 GB, with content validation, hash-based duplicate checks and malware scanning before ingestion.</span></li>
+        <li style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid #232927"><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent); padding-top: 3px">→</span><span>Cut authoring time by an estimated 35% with an AI question generator producing up to 10 variants per template (Angular, .NET, RabbitMQ, Python on AWS Lambda).</span></li>
+        <li style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid #232927"><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent); padding-top: 3px">→</span><span>Designed a configurable grading engine and Angular reporting UI for 12 content types, including coordinate-geometry questions.</span></li>
+        <li style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid #232927"><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent); padding-top: 3px">→</span><span>Tuned MySQL procedures with read replicas; fixed memory leaks and accessibility issues across 4 Angular micro-frontends.</span></li>
+        <li style="display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; padding: 16px 0"><span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent); padding-top: 3px">→</span><span>Integrated Azure Speech pronunciation scoring, fixing memory growth and truncation in long recordings.</span></li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 48px">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px">
+      <h2 style="margin: 0; font-size: clamp(34px, 4.5vw, 52px); letter-spacing: -0.03em; line-height: 1.05; font-weight: 800">Things I've built</h2>
+      <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent)">02 / Projects</span>
+    </div>
+
+    <!-- Project 01 -->
+    <article style="border-top: 1px solid #2E3532; padding-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 32px 64px">
+      <div style="display: flex; flex-direction: column; gap: 16px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #8E9792">01 · GitHub</span>
+        <h3 style="margin: 0; font-size: 34px; letter-spacing: -0.025em; line-height: 1.1; font-weight: 800">Payment Ledger</h3>
+        <p style="margin: 0; font-size: 19px; color: #C9CFCB">A double-entry wallet backend where money never goes missing, even at 400 transfers a second.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px">
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">.NET 10</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">PostgreSQL</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">RabbitMQ</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">k6</span>
+        </div>
+        <a class="proj-link" href="https://github.com/MadhavRaiTrivedi" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--accent); font-weight: 600">View source<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 24px">
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #262C2A; border: 1px solid #262C2A">
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">400/s</span><span style="font-size: 13px; color: #A9B1AC">transfers</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">26.5 ms</span><span style="font-size: 13px; color: #A9B1AC">p95 latency</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em; color: var(--accent)">0</span><span style="font-size: 13px; color: #A9B1AC">unbalanced</span></div>
+        </div>
+        <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 10px; color: #C9CFCB">
+          <li>Idempotency keys and row locks make concurrent transfers safe: 116,018 transactions, zero unbalanced.</li>
+          <li>Transactional outbox publishes ledger events to RabbitMQ. All 116,018 delivered, and a 15,246-event backlog drained in 39 s.</li>
+          <li>Load-tested with k6 over a 60-second run with zero request errors.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Project 02 -->
+    <article style="border-top: 1px solid #2E3532; padding-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 32px 64px">
+      <div style="display: flex; flex-direction: column; gap: 16px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #8E9792">02 · GitHub</span>
+        <h3 style="margin: 0; font-size: 34px; letter-spacing: -0.025em; line-height: 1.1; font-weight: 800">Live Auction</h3>
+        <p style="margin: 0; font-size: 19px; color: #C9CFCB">Real-time bidding that picks exactly one winner when twenty people bid the same amount at the same instant.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px">
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">.NET</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">SignalR</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">Redis</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">PostgreSQL</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">Angular</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">Docker</span>
+        </div>
+        <a class="proj-link" href="https://github.com/MadhavRaiTrivedi" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--accent); font-weight: 600">View source<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 24px">
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #262C2A; border: 1px solid #262C2A">
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">2,000</span><span style="font-size: 13px; color: #A9B1AC">concurrent users</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">81 ms</span><span style="font-size: 13px; color: #A9B1AC">p95 latency</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em; color: var(--accent)">98%</span><span style="font-size: 13px; color: #A9B1AC">rules tested</span></div>
+        </div>
+        <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 10px; color: #C9CFCB">
+          <li>Horizontally scaled across 2 server instances, pushing live bid updates with zero errors.</li>
+          <li>Exactly one winner for 20 simultaneous identical bids, with no double-sells, no lost bids.</li>
+          <li>57 automated tests covering 98% of the business rules.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Project 03 -->
+    <article style="border-top: 1px solid #2E3532; padding-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 32px 64px">
+      <div style="display: flex; flex-direction: column; gap: 16px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #8E9792">03 · Client project</span>
+        <h3 style="margin: 0; font-size: 34px; letter-spacing: -0.025em; line-height: 1.1; font-weight: 800">Tenderflow</h3>
+        <p style="margin: 0; font-size: 19px; color: #C9CFCB">A tendering and cost-estimation platform that replaced spreadsheet quoting with automated calculations.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px">
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">ASP.NET Core</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">Angular</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">PostgreSQL</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">Docker</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">Jenkins</span>
+        </div>
+        <span style="display: inline-flex; align-items: center; min-height: 44px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #8E9792">Private codebase · details on request</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 24px">
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #262C2A; border: 1px solid #262C2A">
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">~490</span><span style="font-size: 13px; color: #A9B1AC">automated tests</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">RBAC</span><span style="font-size: 13px; color: #A9B1AC">role-based access</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em; color: var(--accent)">Rollback</span><span style="font-size: 13px; color: #A9B1AC">price history</span></div>
+        </div>
+        <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 10px; color: #C9CFCB">
+          <li>Designed the project architecture and built much of the Angular frontend, including the main tender-editing screens.</li>
+          <li>Bulk price imports, automated cost calculations and price history with rollback.</li>
+          <li>Pre-migration database backups, Jenkins builds for every service, and shared ownership of audit logging.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Project 04 -->
+    <article style="border-top: 1px solid #2E3532; padding-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 32px 64px">
+      <div style="display: flex; flex-direction: column; gap: 16px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #8E9792">04 · GitHub</span>
+        <h3 style="margin: 0; font-size: 34px; letter-spacing: -0.025em; line-height: 1.1; font-weight: 800">Docs Q&amp;A</h3>
+        <p style="margin: 0; font-size: 19px; color: #C9CFCB">Retrieval-augmented question answering that streams cited answers over your own documents.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px">
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">Python</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">FastAPI</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">pgvector</span>
+          <span style="padding: 5px 10px; border: 1px solid #333B38; color: #C9CFCB">OpenAI</span>
+        </div>
+        <a class="proj-link" href="https://github.com/MadhavRaiTrivedi" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--accent); font-weight: 600">View source<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 24px">
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #262C2A; border: 1px solid #262C2A">
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">SSE</span><span style="font-size: 13px; color: #A9B1AC">streamed answers</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em">RRF</span><span style="font-size: 13px; color: #A9B1AC">hybrid search</span></div>
+          <div style="background: #141817; padding: 18px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.02em; color: var(--accent)">0</span><span style="font-size: 13px; color: #A9B1AC">duplicate chunks</span></div>
+        </div>
+        <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 10px; color: #C9CFCB">
+          <li>Fuses vector and full-text search with reciprocal rank fusion, then streams answers with citations.</li>
+          <li>Lease-based ingestion worker never writes duplicate chunks, even after a crash.</li>
+          <li>Tested with pytest and Testcontainers against a real Postgres.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 48px">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px">
+      <h2 style="margin: 0; font-size: clamp(34px, 4.5vw, 52px); letter-spacing: -0.03em; line-height: 1.05; font-weight: 800">What I work with</h2>
+      <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent)">03 / Stack</span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 1px; background: #262C2A; border: 1px solid #262C2A">
+      <div style="background: #0F1211; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent)">Backend</span>
+        <span style="color: #C9CFCB">.NET 8/10, ASP.NET Core, FastAPI, REST APIs, SignalR, RabbitMQ, Redis, EF Core, Dapper</span>
+      </div>
+      <div style="background: #0F1211; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent)">Frontend</span>
+        <span style="color: #C9CFCB">Angular, RxJS, Angular Material, micro-frontends, WCAG accessibility</span>
+      </div>
+      <div style="background: #0F1211; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent)">Languages</span>
+        <span style="color: #C9CFCB">C#, TypeScript, JavaScript, SQL, Python, HTML/CSS</span>
+      </div>
+      <div style="background: #0F1211; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent)">Data</span>
+        <span style="color: #C9CFCB">PostgreSQL, MySQL, pgvector, MongoDB, Elasticsearch</span>
+      </div>
+      <div style="background: #0F1211; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent)">Cloud &amp; DevOps</span>
+        <span style="color: #C9CFCB">AWS (Lambda, EC2, S3, RDS, CloudWatch), Docker, GitHub Actions, CI/CD, OpenTelemetry</span>
+      </div>
+      <div style="background: #0F1211; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent)">Testing &amp; AI</span>
+        <span style="color: #C9CFCB">xUnit, pytest, Testcontainers, Vitest, RAG, OpenAI API, Azure Speech SDK</span>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 32px; border-top: 1px solid #2E3532; padding-top: 28px">
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8E9792">Education</span>
+        <span style="font-size: 19px; font-weight: 600">B.E. Computer Engineering, Government Engineering College, Gandhinagar</span>
+      </div>
+      <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #A9B1AC">2020 to 2024 · CGPA 8.15/10</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" style="max-width: 1200px; margin: 0 auto; padding: 120px 32px 96px; display: flex; flex-direction: column; gap: 36px">
+    <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: var(--accent)">04 / Contact</span>
+    <h2 style="margin: 0; max-width: 14em; font-size: clamp(40px, 6.5vw, 80px); letter-spacing: -0.035em; line-height: 1; font-weight: 800; text-wrap: balance">Have a system that needs to hold up? Let's talk.</h2>
+    <a href="mailto:trivedimadhav0606@gmail.com" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 14px; min-height: 48px; font-size: clamp(20px, 2.6vw, 30px); font-weight: 600; color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 4px; word-break: break-all">trivedimadhav0606@gmail.com</a>
+    <div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 12px">
+      <a class="btn-ghost" href="https://github.com/MadhavRaiTrivedi" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 20px; border: 1px solid #3A423F; font-weight: 600">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        GitHub
+      </a>
+      <a class="btn-ghost" href="https://linkedin.com/in/trivedimadhav" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 20px; border: 1px solid #3A423F; font-weight: 600">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></svg>
+        LinkedIn
+      </a>
+      <a class="btn-ghost" href="resume.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 20px; border: 1px solid #3A423F; font-weight: 600">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"></path></svg>
+        Résumé
+      </a>
+    </div>
+  </section>
+
+  <footer style="border-top: 1px solid #232927">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 24px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #8E9792">
+      <span>© 2026 Madhav Trivedi</span>
+      <span>Mumbai, India · madhavtrivedi.github.io</span>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
