@@ -4,224 +4,129 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Madhav Trivedi | Backend &amp; Full-Stack .NET Engineer</title>
-<meta name="description" content="Madhav Trivedi: Backend and Full-Stack .NET engineer with 3+ years in C#, .NET, Angular, AWS and Azure. Cut export failures from 8% to 0.4% and deploys from 35 to 6 minutes. Mumbai, open to relocation.">
+<meta name="description" content="Madhav Trivedi: Backend and Full-Stack .NET engineer, 3+ years in C#, .NET, Angular, AWS and Azure. Cut export failures from 8% to 0.4%, imports from 4 min to 45 s, deploys from 35 to 6 min. Mumbai, open to relocation.">
 <meta name="keywords" content="Madhav Trivedi, .NET developer, backend engineer, full stack developer, C#, Angular, AWS, Azure, RabbitMQ, Mumbai">
 <meta name="author" content="Madhav Trivedi">
 <link rel="canonical" href="https://madhavtrivedi.github.io/">
 <meta property="og:title" content="Madhav Trivedi | Backend &amp; Full-Stack .NET Engineer">
-<meta property="og:description" content="3+ years building .NET, Angular, AWS and Azure systems. Failures 8% to 0.4%, imports 4 min to 45 s, deploys 35 to 6 min. Open to new roles.">
+<meta property="og:description" content="Production problems I defeated: failures 8% to 0.4%, imports 4 min to 45 s, deploys 35 to 6 min. Open to new roles.">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://madhavtrivedi.github.io/">
-<meta name="theme-color" content="#0B0E0D">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 220'%3E%3Cpath d='M100 8 L184 30 L184 110 C184 162 144 194 100 212 C56 194 16 162 16 110 L16 30 Z' fill='%230F3B2E' stroke='%23C9A54E' stroke-width='12'/%3E%3Ctext x='100' y='140' text-anchor='middle' font-family='Georgia,serif' font-weight='700' font-size='84' fill='%23E8E3D3'%3EMT%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#C62533">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' fill='%23C62533' stroke='%2315192B' stroke-width='6'/%3E%3Ctext x='32' y='43' font-family='Impact,sans-serif' font-size='28' fill='%23FFF9EC' text-anchor='middle'%3EMT%3C/text%3E%3C/svg%3E">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Madhav Trivedi","jobTitle":"Software Engineer","url":"https://madhavtrivedi.github.io/","email":"mailto:trivedimadhav0606@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Mumbai","addressCountry":"IN"},"worksFor":{"@type":"Organization","name":"Zeus Learning"},"alumniOf":"Government Engineering College, Gandhinagar","knowsAbout":["C#",".NET","ASP.NET Core","Angular","TypeScript","RabbitMQ","PostgreSQL","AWS","Azure","RAG"],"sameAs":["https://linkedin.com/in/trivedimadhav","https://github.com/MadhavRaiTrivedi"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=Cormorant+Garamond:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Libre+Franklin:wght@400;500;600;700;800&amp;family=Courier+Prime:wght@400;700&amp;display=swap" rel="stylesheet">
 <style>
 html{scroll-behavior:smooth}
-:root{--gold:#C9A54E;--emerald:#0F3B2E}
-body{margin:0;background:#0B0E0D}
+:root{--red:#C62533;--blue:#2350A8;--gold:#F2B735}
+body{margin:0;background:#F3E9D4}
 section[id]{scroll-margin-top:12px}
-:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.lift{transition:none}}
 a{color:inherit;text-decoration:none}
 a:hover{color:inherit}
-.engrave{background-image:repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 1px, transparent 1px 8px)}
-.engrave-em{background-image:repeating-linear-gradient(135deg, rgba(232,227,211,0.035) 0 1px, transparent 1px 8px)}
-.btn-gold:hover{filter:brightness(1.1)}
-.btn-line:hover{border-color:#C9A54E;color:#F3EEDF}
-.navlink:hover{color:#C9A54E}
-.textlink:hover{text-decoration:underline;text-underline-offset:5px}
-.fit{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
-.fitlabel{cursor:pointer}
-.fitlabel:hover{border-color:#C9A54E;color:#F3EEDF}
-.fit:checked + .fitlabel{background:#C9A54E;color:#0B0E0D;border-color:#C9A54E}
-.fit:focus-visible + .fitlabel{outline:2px solid #C9A54E;outline-offset:3px}
-.fo{display:none}
-.fo0{display:block}
-.fit:checked ~ .fitout .fo0{display:none}
-#f1:checked ~ .fitout .fo1{display:block}
-#f2:checked ~ .fitout .fo2{display:block}
-#f3:checked ~ .fitout .fo3{display:block}
-#f4:checked ~ .fitout .fo4{display:block}
-#f5:checked ~ .fitout .fo5{display:block}
+.dots{background-image:radial-gradient(rgba(21,25,43,0.11) 1.3px, transparent 1.7px);background-size:10px 10px}
+.dots-light{background-image:radial-gradient(rgba(243,233,212,0.12) 1.3px, transparent 1.7px);background-size:10px 10px}
+.dots-red{background-image:radial-gradient(rgba(21,25,43,0.18) 1.4px, transparent 1.8px);background-size:9px 9px}
+.burst{clip-path:polygon(50% 0%,61% 16%,80% 6%,80% 27%,100% 30%,88% 48%,100% 66%,79% 71%,78% 93%,60% 84%,50% 100%,40% 84%,22% 93%,21% 71%,0% 66%,12% 48%,0% 30%,20% 27%,20% 6%,39% 16%)}
+.lift{transition:transform .12s ease, box-shadow .12s ease}
+.lift:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 #15192B}
+.navlink:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:6px}
+.rf{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.rl{cursor:pointer}
+.rl:hover{background:#FFF7E6}
+.rf:checked + .rl{background:#15192B;color:#F3E9D4}
+.rf:focus-visible + .rl{outline:3px solid #2350A8;outline-offset:3px}
+.ro{display:none}
+.ro0{display:block}
+.rf:checked ~ .rout .ro0{display:none}
+#r1:checked ~ .rout .ro1{display:block}
+#r2:checked ~ .rout .ro2{display:block}
+#r3:checked ~ .rout .ro3{display:block}
+#r4:checked ~ .rout .ro4{display:block}
+#r5:checked ~ .rout .ro5{display:block}
+.secret summary{list-style:none;cursor:pointer}
+.secret summary::-webkit-details-marker{display:none}
+.secret summary:hover{transform:rotate(-1deg) scale(1.02)}
+.secret[open] summary .closed-label{display:none}
+.secret:not([open]) summary .open-label{display:none}
 </style>
 </head>
 <body>
-<div class="engrave" style="background-color: #0B0E0D; color: #E8E3D3; font-family: 'IBM Plex Sans', 'Helvetica Neue', system-ui, sans-serif; font-size: 17px; line-height: 1.65; min-height: 100vh">
+<div style="background: #F3E9D4; color: #15192B; font-family: 'Libre Franklin', 'Helvetica Neue', system-ui, sans-serif; font-size: 17px; line-height: 1.6; min-height: 100vh">
 
-  <!-- TOP SEAL BAR -->
-  <div style="background: var(--emerald); border-bottom: 1px solid var(--gold)">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 8px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 24px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #E8E3D3">
-      <span>Candidate dossier · MT-01</span>
-      <span style="color: var(--gold)">Status: available for hire</span>
-    </div>
-  </div>
+  <!-- ================= COVER ================= -->
+  <section id="top" class="dots" style="border-bottom: 6px solid #15192B">
+    <!-- masthead -->
+    <header style="background: #15192B; color: #F3E9D4">
+      <nav aria-label="Primary" style="max-width: 1240px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px">
+        <a href="#top" style="display: flex; align-items: center; gap: 12px">
+          <span style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; background: var(--red); border: 3px solid #F3E9D4; font-family: 'Anton', Impact, sans-serif; font-size: 20px; transform: rotate(-4deg)">MT</span>
+          <span style="font-family: 'Anton', Impact, sans-serif; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase">Madhav Trivedi</span>
+        </a>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 26px; font-family: 'Anton', Impact, sans-serif; font-size: 17px; letter-spacing: 0.08em; text-transform: uppercase">
+          <a class="navlink" href="#cases" style="padding: 10px 0">Problems solved</a>
+          <a class="navlink" href="#fit" style="padding: 10px 0">Role fit</a>
+          <a class="navlink" href="#experience" style="padding: 10px 0">Experience</a>
+          <a class="navlink" href="#projects" style="padding: 10px 0">Projects</a>
+          <a class="lift" href="mailto:trivedimadhav0606@gmail.com?subject=Role%20opportunity%20for%20Madhav%20Trivedi" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; background: var(--gold); color: #15192B; border: 3px solid #F3E9D4">Hire me</a>
+        </div>
+      </nav>
+    </header>
 
-  <!-- NAV -->
-  <header style="border-bottom: 1px solid #222A27">
-    <nav aria-label="Primary" style="max-width: 1200px; margin: 0 auto; padding: 16px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
-      <a href="#top" style="display: flex; align-items: center; gap: 12px">
-        <svg width="34" height="38" viewBox="0 0 200 220" aria-hidden="true"><path d="M100 8 L184 30 L184 110 C184 162 144 194 100 212 C56 194 16 162 16 110 L16 30 Z" fill="#0F3B2E" stroke="#C9A54E" stroke-width="10"></path><text x="100" y="138" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="700" font-size="92" fill="#E8E3D3">M</text></svg>
-        <span style="font-family: 'Cinzel', 'Trajan Pro', Georgia, serif; font-weight: 700; font-size: 17px; letter-spacing: 0.16em">MADHAV TRIVEDI</span>
-      </a>
-      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 28px; font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 13px; letter-spacing: 0.16em">
-        <a class="navlink" href="#proof" style="padding: 12px 0; color: #ABA594">PROOF</a>
-        <a class="navlink" href="#fit" style="padding: 12px 0; color: #ABA594">ROLE FIT</a>
-        <a class="navlink" href="#record" style="padding: 12px 0; color: #ABA594">EXPERIENCE</a>
-        <a class="navlink" href="#works" style="padding: 12px 0; color: #ABA594">PROJECTS</a>
-        <a class="btn-gold" href="mailto:trivedimadhav0606@gmail.com?subject=Role%20opportunity%20for%20Madhav%20Trivedi" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; background: var(--gold); color: #0B0E0D">HIRE ME</a>
+    <div style="max-width: 1240px; margin: 0 auto; padding: 40px 32px 72px; display: flex; flex-direction: column; gap: 28px">
+      <!-- cover top line -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: stretch; gap: 16px">
+        <div style="display: flex; align-items: stretch; border: 4px solid #15192B; box-shadow: 6px 6px 0 #15192B; background: #FFF9EC">
+          <span style="display: flex; align-items: center; padding: 6px 14px; background: var(--red); color: #F3E9D4; font-family: 'Anton', Impact, sans-serif; font-size: 22px; white-space: nowrap; letter-spacing: 0.04em; border-right: 4px solid #15192B">No. 3</span>
+          <span style="display: flex; align-items: center; padding: 6px 14px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase">3+ years in production · 2023 to now</span>
+        </div>
+        <div style="display: flex; align-items: center; padding: 6px 14px; border: 4px solid #15192B; box-shadow: 6px 6px 0 #15192B; background: var(--gold); font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase">Mumbai · Open to relocation</div>
       </div>
-    </nav>
-  </header>
 
-  <!-- HERO -->
-  <section id="top" style="max-width: 1200px; margin: 0 auto; padding: 84px 32px 88px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr)); gap: 56px; align-items: center">
-    <div style="display: flex; flex-direction: column; gap: 26px">
-      <div style="display: flex; align-items: center; gap: 14px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.1em; color: var(--gold)">
-        <span style="width: 36px; height: 1px; background: var(--gold)"></span>
-        <span>BACKEND &amp; FULL-STACK .NET ENGINEER · 3+ YEARS</span>
-      </div>
-      <h1 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(50px, 7.2vw, 96px); line-height: 0.98; letter-spacing: -0.01em; color: #F3EEDF; text-wrap: balance">I build the systems your product can't afford to break.</h1>
-      <p style="margin: 0; max-width: 34em; font-size: 19px; color: #BDB7A6; text-wrap: pretty">Software engineer in Mumbai, open to relocation. I design .NET, Angular, AWS and Azure services that run in production every day, and I measure every change. My last pipeline cut failures from <strong style="color: #F3EEDF">8% to 0.4%</strong> and saved the team <strong style="color: #F3EEDF">~100 hours a month</strong>.</p>
-      <div style="display: flex; flex-wrap: wrap; gap: 14px; padding-top: 4px">
-        <a class="btn-gold" href="mailto:trivedimadhav0606@gmail.com?subject=Role%20opportunity%20for%20Madhav%20Trivedi" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; background: var(--gold); color: #0B0E0D; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 15px; letter-spacing: 0.12em">DISCUSS A ROLE</a>
-        <a class="btn-line" href="resume.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border: 1px solid #3A4541; color: #DDD7C6; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 15px; letter-spacing: 0.12em">DOWNLOAD RÉSUMÉ</a>
-      </div>
-    </div>
-
-    <!-- recruiter brief with crest -->
-    <aside aria-label="Recruiter brief" style="position: relative; border: 1px solid var(--gold); padding: 6px">
-      <div style="border: 1px solid #3A4541; background: #101513; padding: 30px 28px 26px; display: flex; flex-direction: column; gap: 18px">
-        <div style="display: flex; align-items: center; gap: 18px">
-          <svg width="74" height="82" viewBox="0 0 200 220" role="img" aria-label="Personal crest with the initials MT">
-            <path d="M100 8 L184 30 L184 110 C184 162 144 194 100 212 C56 194 16 162 16 110 L16 30 Z" fill="#0F3B2E" stroke="#C9A54E" stroke-width="6"></path>
-            <path d="M100 24 L170 42 L170 110 C170 152 138 180 100 196 C62 180 30 152 30 110 L30 42 Z" fill="none" stroke="#E8E3D3" stroke-opacity="0.35" stroke-width="2"></path>
-            <path d="M30 124 L100 86 L170 124 L170 144 L100 106 L30 144 Z" fill="#C9A54E" opacity="0.9"></path>
-            <text x="100" y="80" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="700" font-size="58" fill="#F3EEDF">MT</text>
-            <text x="100" y="178" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="3" fill="#E8E3D3">EST 2023</text>
-          </svg>
-          <div style="display: flex; flex-direction: column; gap: 2px">
-            <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.14em; color: var(--gold)">RECRUITER BRIEF</span>
-            <span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 30px; line-height: 1.1; color: #F3EEDF">The 30-second read</span>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(540px, 100%), 1fr)); gap: 40px; align-items: start">
+        <!-- left: title + bubble -->
+        <div style="display: flex; flex-direction: column; gap: 22px; align-items: flex-start">
+          <p style="margin: 0; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue)">Backend &amp; Full-Stack .NET Engineer</p>
+          <h1 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(78px, 12.5vw, 172px); line-height: 0.86; text-transform: uppercase; color: var(--red); text-shadow: 5px 5px 0 #15192B; transform: skewX(-6deg); transform-origin: left bottom">Madhav<br>Trivedi</h1>
+          <div style="position: relative; margin-top: 8px; background: #FFFFFF; border: 4px solid #15192B; border-radius: 32px; padding: 22px 28px; max-width: 34em; box-shadow: 8px 8px 0 #15192B">
+            <p style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-size: clamp(26px, 3vw, 36px); line-height: 1.08; text-transform: uppercase">I build backend systems that recover on their own, and I prove it with numbers.</p>
+            <div style="position: absolute; left: 60px; top: -30px; width: 0; height: 0; border-bottom: 30px solid #15192B; border-right: 30px solid transparent"></div>
+            <div style="position: absolute; left: 65px; top: -19px; width: 0; height: 0; border-bottom: 20px solid #FFFFFF; border-right: 20px solid transparent"></div>
+          </div>
+          <p style="margin: 0; max-width: 36em; font-size: 18px; color: #353A4E">3+ years designing .NET, Angular, AWS and Azure services at Zeus Learning and N R Crew. I own pipelines that process thousands of jobs a day, ship AI features across the stack, and lead delivery for a team of developers.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 14px; padding-top: 4px">
+            <a class="lift" href="#cases" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 26px; background: var(--red); color: #FFF9EC; border: 4px solid #15192B; box-shadow: 6px 6px 0 #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 21px; letter-spacing: 0.06em; text-transform: uppercase">See problems I've solved</a>
+            <a class="lift" href="resume.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 26px; background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 6px 6px 0 #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 21px; letter-spacing: 0.06em; text-transform: uppercase">Résumé (PDF)</a>
           </div>
         </div>
-        <dl style="margin: 0; display: flex; flex-direction: column">
-          <div style="display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 12px; padding: 11px 0; border-top: 1px solid #222A27"><dt style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8F8A7C">Target roles</dt><dd style="margin: 0; color: #F3EEDF">Backend Engineer · Full-Stack .NET/Angular · Senior SE track</dd></div>
-          <div style="display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 12px; padding: 11px 0; border-top: 1px solid #222A27"><dt style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8F8A7C">Experience</dt><dd style="margin: 0; color: #F3EEDF">3+ years · Zeus Learning, N R Crew</dd></div>
-          <div style="display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 12px; padding: 11px 0; border-top: 1px solid #222A27"><dt style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8F8A7C">Core stack</dt><dd style="margin: 0; color: #F3EEDF">C#, .NET 8/10, Angular, TypeScript, RabbitMQ, PostgreSQL, AWS, Azure</dd></div>
-          <div style="display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 12px; padding: 11px 0; border-top: 1px solid #222A27; border-bottom: 1px solid #222A27"><dt style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8F8A7C">Location</dt><dd style="margin: 0; color: #F3EEDF">Mumbai, India · open to relocation</dd></div>
-        </dl>
-        <a class="textlink" href="mailto:trivedimadhav0606@gmail.com?subject=Role%20opportunity%20for%20Madhav%20Trivedi" style="display: inline-flex; align-items: center; min-height: 44px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; color: var(--gold)">trivedimadhav0606@gmail.com →</a>
-      </div>
-    </aside>
-  </section>
 
-  <!-- PROOF -->
-  <section id="proof" class="engrave-em" style="background-color: var(--emerald); border-top: 1px solid var(--gold); border-bottom: 1px solid var(--gold)">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 72px 32px; display: flex; flex-direction: column; gap: 36px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px">
-        <h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 52px); line-height: 1.05; color: #F3EEDF">Results I've shipped, in numbers</h2>
-        <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.12em; color: var(--gold)">EVIDENCE · VERIFIED IN PRODUCTION</span>
-      </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 1px; background: rgba(201,165,78,0.45); border: 1px solid rgba(201,165,78,0.45)">
-        <div style="background: var(--emerald); padding: 26px 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 46px; line-height: 1; color: #F3EEDF">8% → 0.4%</span><span style="font-size: 15px; color: #D3CDBB">export failure rate on 1,000 packages a day</span></div>
-        <div style="background: var(--emerald); padding: 26px 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 46px; line-height: 1; color: #F3EEDF">4 min → 45 s</span><span style="font-size: 15px; color: #D3CDBB">import time across 3,000 daily uploads</span></div>
-        <div style="background: var(--emerald); padding: 26px 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 46px; line-height: 1; color: #F3EEDF">35 → 6 min</span><span style="font-size: 15px; color: #D3CDBB">deploy time after standardising CI/CD, 5+ releases a day</span></div>
-        <div style="background: var(--emerald); padding: 26px 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 46px; line-height: 1; color: #F3EEDF">40% faster</span><span style="font-size: 15px; color: #D3CDBB">content authoring with an AI feature I built end to end</span></div>
-        <div style="background: var(--emerald); padding: 26px 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 46px; line-height: 1; color: #F3EEDF">4 teams</span><span style="font-size: 15px; color: #D3CDBB">on one grading library I unified, ~60% less duplicated logic</span></div>
-        <div style="background: var(--emerald); padding: 26px 24px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 46px; line-height: 1; color: #F3EEDF">200+</span><span style="font-size: 15px; color: #D3CDBB">production issues resolved, mean time to resolution down 20%</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHY HIRE -->
-  <section id="why" style="max-width: 1200px; margin: 0 auto; padding: 104px 32px 40px; display: flex; flex-direction: column; gap: 40px">
-    <div style="display: flex; flex-direction: column; gap: 12px">
-      <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.14em; color: var(--gold)">WHY HIRE ME</span>
-      <h2 style="margin: 0; max-width: 18em; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 56px); line-height: 1.05; color: #F3EEDF">Three things you get on day one.</h2>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 22px">
-      <div style="border-top: 2px solid var(--gold); padding-top: 22px; display: flex; flex-direction: column; gap: 12px">
-        <span style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 15px; letter-spacing: 0.14em; color: var(--gold)">I · RELIABILITY</span>
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 30px; line-height: 1.15; color: #F3EEDF">Systems that recover on their own</h3>
-        <p style="margin: 0; color: #BDB7A6">Checkpoints, retries, dead-letter queues and idempotency are my defaults, not afterthoughts. Interrupted jobs resume without duplicates and failures stay rare.</p>
-      </div>
-      <div style="border-top: 2px solid var(--gold); padding-top: 22px; display: flex; flex-direction: column; gap: 12px">
-        <span style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 15px; letter-spacing: 0.14em; color: var(--gold)">II · OWNERSHIP</span>
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 30px; line-height: 1.15; color: #F3EEDF">Features shipped end to end</h3>
-        <p style="margin: 0; color: #BDB7A6">Angular UI, .NET APIs, queues, cloud functions, CI/CD and production support. I own a feature from the first ticket to the post-release fix.</p>
-      </div>
-      <div style="border-top: 2px solid var(--gold); padding-top: 22px; display: flex; flex-direction: column; gap: 12px">
-        <span style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 15px; letter-spacing: 0.14em; color: var(--gold)">III · LEVERAGE</span>
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 30px; line-height: 1.15; color: #F3EEDF">A multiplier for the team</h3>
-        <p style="margin: 0; color: #BDB7A6">I've mentored 4 developers, run sprint planning across 5+ deliverables and built shared tooling 4 teams rely on, while still writing production code.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ROLE FIT -->
-  <section id="fit" style="max-width: 1200px; margin: 0 auto; padding: 80px 32px 40px">
-    <div style="border: 1px solid var(--gold); padding: 6px">
-      <div style="border: 1px solid #3A4541; background: #101513; padding: clamp(24px, 4vw, 44px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 36px; align-items: start">
-        <div style="display: flex; flex-direction: column; gap: 14px">
-          <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.14em; color: var(--gold)">ROLE FIT CHECK</span>
-          <h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(34px, 4.2vw, 50px); line-height: 1.05; color: #F3EEDF">What are you hiring for?</h2>
-          <p style="margin: 0; color: #BDB7A6">Pick the role. You'll see the evidence that matters for it, straight from my work history.</p>
-        </div>
-        <div style="position: relative; display: flex; flex-wrap: wrap; gap: 10px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 14px">
-          <input class="fit" type="radio" name="fit" id="f1">
-          <label class="fitlabel" for="f1" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1px solid #3A4541; color: #DDD7C6">Backend / .NET</label>
-          <input class="fit" type="radio" name="fit" id="f2">
-          <label class="fitlabel" for="f2" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1px solid #3A4541; color: #DDD7C6">Full-stack Angular</label>
-          <input class="fit" type="radio" name="fit" id="f3">
-          <label class="fitlabel" for="f3" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1px solid #3A4541; color: #DDD7C6">AI &amp; search</label>
-          <input class="fit" type="radio" name="fit" id="f4">
-          <label class="fitlabel" for="f4" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1px solid #3A4541; color: #DDD7C6">Cloud &amp; DevOps</label>
-          <input class="fit" type="radio" name="fit" id="f5">
-          <label class="fitlabel" for="f5" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1px solid #3A4541; color: #DDD7C6">Tech lead</label>
-
-          <div class="fitout" aria-live="polite" style="flex-basis: 100%; margin-top: 12px; border-top: 1px solid #222A27; padding-top: 20px; min-height: 190px; font-family: 'IBM Plex Sans', system-ui, sans-serif; font-size: 16px">
-            <div class="fo fo0" style="color: #8F8A7C">Select a role above to see matching evidence.</div>
-            <div class="fo fo1">
-              <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 8px; color: #E8E3D3">
-                <li>Fault-tolerant .NET + RabbitMQ export pipeline, 1,000 packages a day, failures 8% to 0.4%.</li>
-                <li>Import pipeline for 3,000 daily uploads, 4 minutes down to 45 seconds with batching and SHA-256 dedup.</li>
-                <li>Pricing engine and PostgreSQL tuning that cut dashboard load time 45%.</li>
-              </ul>
-              <p style="margin: 14px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--gold)">C# · .NET 8/10 · ASP.NET Core · RabbitMQ · Redis · EF Core · Dapper · PostgreSQL</p>
+        <!-- right: status panel + bursts -->
+        <div style="position: relative; display: flex; flex-direction: column; gap: 22px; padding-top: 12px">
+          <figure style="margin: 0; background: #15192B; color: #F3E9D4; border: 4px solid #15192B; box-shadow: 10px 10px 0 var(--blue)">
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 18px; border-bottom: 3px solid var(--gold)">
+              <span style="font-family: 'Anton', Impact, sans-serif; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold)">Systems I run in production</span>
+              <span style="display: inline-flex; align-items: center; gap: 8px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 13px; text-transform: uppercase"><span style="width: 10px; height: 10px; border-radius: 50%; background: #4CC38A"></span>Operational</span>
             </div>
-            <div class="fo fo2">
-              <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 8px; color: #E8E3D3">
-                <li>AI question-variant feature across Angular, .NET, RabbitMQ and Python, authoring 40% faster.</li>
-                <li>Co-built Tenderflow (ASP.NET Core, Angular, PostgreSQL), quote turnaround down 50%.</li>
-                <li>Fixed memory leaks and WCAG issues across Angular micro-frontends.</li>
-              </ul>
-              <p style="margin: 14px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--gold)">Angular · RxJS · TypeScript · .NET · SignalR · micro-frontends · WCAG</p>
+            <div class="dots-light" style="padding: 8px 18px 14px; font-family: 'Courier Prime', 'Courier New', monospace; font-size: 16px">
+              <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 12px 0; border-bottom: 2px dashed rgba(243,233,212,0.3)"><span>QTI export pipeline</span><strong>1,000 / day · 99.6% ok</strong></div>
+              <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 12px 0; border-bottom: 2px dashed rgba(243,233,212,0.3)"><span>QTI import pipeline</span><strong>3,000 / day · 45 s</strong></div>
+              <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 12px 0; border-bottom: 2px dashed rgba(243,233,212,0.3)"><span>Malware scanning</span><strong>~120 threats blocked</strong></div>
+              <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 12px 0; border-bottom: 2px dashed rgba(243,233,212,0.3)"><span>Search &amp; RAG</span><strong>10K+ docs indexed</strong></div>
+              <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 12px 0"><span>Shared grading library</span><strong>4 teams · 12 types</strong></div>
             </div>
-            <div class="fo fo3">
-              <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 8px; color: #E8E3D3">
-                <li>Hybrid search and RAG on Elasticsearch + Qdrant: retrieval latency down a third, classification accuracy up 25%.</li>
-                <li>Metadata generated for 10K+ documents powering context-aware retrieval.</li>
-                <li>AI variant generation with SymPy validation and prompt sanitisation.</li>
-              </ul>
-              <p style="margin: 14px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--gold)">RAG · Qdrant · Elasticsearch · pgvector · OpenAI API · Python · SymPy</p>
+            <figcaption style="padding: 10px 18px; border-top: 3px solid var(--gold); font-family: 'Courier Prime', 'Courier New', monospace; font-size: 13px; color: #CFC6B2">Zeus Learning · .NET · RabbitMQ · Redis · AWS Lambda · Elasticsearch · Qdrant</figcaption>
+          </figure>
+          <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 18px">
+            <div style="width: 150px; height: 150px; background: #15192B; display: flex; align-items: center; justify-content: center" class="burst">
+              <div class="burst" style="width: 138px; height: 138px; background: var(--gold); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px">20×</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase">fewer failures</span></div>
             </div>
-            <div class="fo fo4">
-              <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 8px; color: #E8E3D3">
-                <li>Reusable GitHub Actions + Docker + Key Vault: deploys 35 to 6 minutes, 5+ releases a day.</li>
-                <li>S3-triggered ClamAV Lambda scans blocking ~120 infected packages.</li>
-                <li>Azure App Service + Blob Storage asset library for 5,000+ assets with SAS downloads.</li>
-              </ul>
-              <p style="margin: 14px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--gold)">AWS Lambda · ECS Fargate · S3 · SQS · Azure Functions · Docker · GitHub Actions</p>
+            <div style="width: 150px; height: 150px; background: #15192B; display: flex; align-items: center; justify-content: center" class="burst">
+              <div class="burst" style="width: 138px; height: 138px; background: var(--red); color: #FFF9EC; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px">5×</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase">faster imports</span></div>
             </div>
-            <div class="fo fo5">
-              <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 8px; color: #E8E3D3">
-                <li>Led execution across 5+ concurrent deliverables, delivery predictability up 15%.</li>
-                <li>Mentored 4 developers; unified grading SDKs cut new-engineer onboarding 30%.</li>
-                <li>Owned release-impact comms and escalations across support, product and engineering.</li>
-              </ul>
-              <p style="margin: 14px 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--gold)">Sprint planning · Mentoring · Agile/Scrum · Root-cause analysis · Jira</p>
+            <div style="width: 150px; height: 150px; background: #15192B; display: flex; align-items: center; justify-content: center" class="burst">
+              <div class="burst" style="width: 138px; height: 138px; background: var(--blue); color: #FFF9EC; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; line-height: 1"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px">83%</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase">faster deploys</span></div>
             </div>
           </div>
         </div>
@@ -229,123 +134,260 @@ a:hover{color:inherit}
     </div>
   </section>
 
-  <!-- EXPERIENCE -->
-  <section id="record" style="max-width: 1200px; margin: 0 auto; padding: 104px 32px 40px; display: flex; flex-direction: column; gap: 48px">
-    <div style="display: flex; flex-direction: column; gap: 12px">
-      <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.14em; color: var(--gold)">RECORD OF SERVICE</span>
-      <h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 56px); line-height: 1.05; color: #F3EEDF">Experience</h2>
+  <!-- ================= RECAP STRIP ================= -->
+  <section aria-label="Summary" style="background: var(--gold); border-bottom: 6px solid #15192B">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 26px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 18px 32px">
+      <div style="display: flex; flex-direction: column"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px; line-height: 1.1">~100 hrs/mo</span><span style="font-size: 15px; font-weight: 600">saved by self-recovering exports</span></div>
+      <div style="display: flex; flex-direction: column"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px; line-height: 1.1">40%</span><span style="font-size: 15px; font-weight: 600">less authoring time from my AI feature</span></div>
+      <div style="display: flex; flex-direction: column"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px; line-height: 1.1">200+</span><span style="font-size: 15px; font-weight: 600">production issues resolved, MTTR down 20%</span></div>
+      <div style="display: flex; flex-direction: column"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px; line-height: 1.1">4 devs</span><span style="font-size: 15px; font-weight: 600">mentored while shipping production code</span></div>
     </div>
+  </section>
 
-    <article style="display: flex; flex-wrap: wrap; gap: 24px 56px; border-top: 1px solid #3A4541; padding-top: 32px">
-      <div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 6px">
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 34px; line-height: 1.1; color: #F3EEDF">Zeus Learning</h3>
-        <span style="color: #DDD7C6">Software Engineer</span>
-        <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8F8A7C">Jan 2024 to Present · Mumbai</span>
+  <!-- ================= VILLAIN GALLERY ================= -->
+  <section id="cases" style="background: #15192B; color: #F3E9D4; border-bottom: 6px solid #15192B">
+    <div class="dots-light" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 44px">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 18px">
+        <div style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start">
+          <span style="background: var(--red); color: #FFF9EC; border: 3px solid #F3E9D4; padding: 5px 12px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase">The villain gallery</span>
+          <h2 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(48px, 6.4vw, 88px); line-height: 0.92; text-transform: uppercase; transform: skewX(-6deg); transform-origin: left bottom; text-shadow: 5px 5px 0 var(--red)">Production problems I defeated</h2>
+        </div>
+        <p style="margin: 0; max-width: 26em; color: #CFC6B2">Every case is real: the problem, what I built, and the measured result.</p>
       </div>
-      <ul style="flex: 999 1 560px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Built a fault-tolerant QTI export pipeline (.NET, RabbitMQ) for <strong style="color: #F3EEDF">1,000 packages a day</strong>, cutting failures <strong style="color: #F3EEDF">8% to 0.4%</strong> and saving <strong style="color: #F3EEDF">~100 hours a month</strong>.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Owned the import pipeline for 3,000 daily uploads end to end: import time <strong style="color: #F3EEDF">4 min to 45 s</strong>, ClamAV Lambda scans blocking ~120 infected packages.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Shipped AI question-variant generation (Angular, .NET, Python on AWS Lambda): <strong style="color: #F3EEDF">40% less authoring time</strong>, variants 3× faster at peak.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Architected hybrid search and RAG (Elasticsearch, Qdrant): retrieval latency down a third, classification accuracy <strong style="color: #F3EEDF">up 25%</strong> across 10K+ documents.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Unified 3+ grading SDKs into one library for 12 question types and <strong style="color: #F3EEDF">4 teams</strong>, removing ~60% duplicated logic and cutting onboarding 30%.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Resolved 200+ production issues through root-cause analysis, mean time to resolution down 20%.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0"><span style="color: var(--gold)">◆</span><span>Led execution across 5+ concurrent deliverables and mentored 4 developers, improving delivery predictability 15%.</span></li>
-      </ul>
-    </article>
 
-    <article style="display: flex; flex-wrap: wrap; gap: 24px 56px; border-top: 1px solid #3A4541; padding-top: 32px">
-      <div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 6px">
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 34px; line-height: 1.1; color: #F3EEDF">N R Crew</h3>
-        <span style="color: #DDD7C6">Software Developer</span>
-        <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8F8A7C">Jan 2023 to Dec 2023 · Ahmedabad</span>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(520px, 100%), 1fr)); gap: 30px">
+
+        <!-- CASE 01 featured -->
+        <article style="grid-column: 1 / -1; background: #FFF9EC; color: #15192B; border: 5px solid #F3E9D4; box-shadow: 10px 10px 0 var(--red); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr))">
+          <div class="dots-red" style="background-color: var(--red); color: #FFF9EC; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; gap: 22px; border-right: 5px solid #15192B">
+            <div style="display: flex; flex-direction: column; gap: 10px">
+              <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase">Case 01 · Zeus Learning</span>
+              <h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(44px, 5vw, 64px); line-height: 0.95; text-transform: uppercase; text-shadow: 4px 4px 0 #15192B">The Failing Export</h3>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px">
+              <div style="display: flex; flex-direction: column; padding: 10px 16px; background: #15192B; border: 3px solid #FFF9EC"><span style="font-family: 'Courier Prime', 'Courier New', monospace; font-size: 12px; text-transform: uppercase">Before</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 44px; line-height: 1; text-decoration: line-through; text-decoration-thickness: 4px">8%</span></div>
+              <span style="font-family: 'Anton', Impact, sans-serif; font-size: 40px">→</span>
+              <div style="display: flex; flex-direction: column; padding: 10px 16px; background: var(--gold); color: #15192B; border: 3px solid #15192B"><span style="font-family: 'Courier Prime', 'Courier New', monospace; font-size: 12px; text-transform: uppercase">After</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 44px; line-height: 1">0.4%</span></div>
+              <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; text-transform: uppercase">failed exports</span>
+            </div>
+          </div>
+          <div style="padding: 30px; display: flex; flex-direction: column; gap: 16px">
+            <div style="display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--red)">Problem</span><span>8% of IMS QTI 2.2 export jobs failed, and interrupted jobs needed manual recovery, costing the team time every week.</span></div>
+            <div style="display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--blue)">Approach</span><span>Rebuilt it as a fault-tolerant .NET + RabbitMQ pipeline with database checkpoints, Redis-backed retries and dead-letter queues, so interrupted jobs resume without duplicate processing.</span></div>
+            <div style="display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase">Result</span><span><strong>1,000 packages a day</strong>, failures from <strong>8% to 0.4%</strong>, and <strong>~100 engineering hours saved every month</strong>.</span></div>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 6px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 13px">
+              <span style="border: 2px solid #15192B; padding: 3px 9px">.NET</span><span style="border: 2px solid #15192B; padding: 3px 9px">RabbitMQ</span><span style="border: 2px solid #15192B; padding: 3px 9px">Redis</span><span style="border: 2px solid #15192B; padding: 3px 9px">Dead-letter queues</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CASE 02 -->
+        <article style="background: #FFF9EC; color: #15192B; border: 5px solid #F3E9D4; box-shadow: 10px 10px 0 var(--blue); display: flex; flex-direction: column">
+          <div class="dots-red" style="background-color: var(--blue); color: #FFF9EC; padding: 22px 26px; border-bottom: 5px solid #15192B; display: flex; flex-direction: column; gap: 8px">
+            <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase">Case 02 · Zeus Learning</span>
+            <h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 46px; line-height: 0.95; text-transform: uppercase; text-shadow: 3px 3px 0 #15192B">The 4-Minute Import</h3>
+          </div>
+          <div style="padding: 24px 26px; display: flex; flex-direction: column; gap: 14px; flex: 1">
+            <div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px; text-decoration: line-through; text-decoration-thickness: 3px; color: #6A6E80">4 min</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 30px">→</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 40px; background: var(--gold); padding: 0 10px; border: 3px solid #15192B">45 s</span><span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px">per import</span></div>
+            <p style="margin: 0"><strong>Problem:</strong> Each of 3,000 daily uploads took around 4 minutes to import.</p>
+            <p style="margin: 0"><strong>Approach:</strong> Took end-to-end ownership; added batched RabbitMQ processing and SHA-256 deduplication so duplicate packages are never reprocessed.</p>
+            <p style="margin: 0"><strong>Result:</strong> Import time cut by more than 5× for every user.</p>
+          </div>
+        </article>
+
+        <!-- CASE 03 -->
+        <article style="background: #FFF9EC; color: #15192B; border: 5px solid #F3E9D4; box-shadow: 10px 10px 0 var(--gold); display: flex; flex-direction: column">
+          <div class="dots-red" style="background-color: var(--gold); color: #15192B; padding: 22px 26px; border-bottom: 5px solid #15192B; display: flex; flex-direction: column; gap: 8px">
+            <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase">Case 03 · Zeus Learning</span>
+            <h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 46px; line-height: 0.95; text-transform: uppercase; color: #FFF9EC; text-shadow: 3px 3px 0 #15192B">The Infected Package</h3>
+          </div>
+          <div style="padding: 24px 26px; display: flex; flex-direction: column; gap: 14px; flex: 1">
+            <div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 40px; background: var(--gold); padding: 0 10px; border: 3px solid #15192B">~120</span><span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px">infected uploads stopped</span></div>
+            <p style="margin: 0"><strong>Problem:</strong> User-uploaded content packages could carry malware straight into the platform.</p>
+            <p style="margin: 0"><strong>Approach:</strong> Built S3-triggered ClamAV scanning on AWS Lambda that checks every package before ingestion.</p>
+            <p style="margin: 0"><strong>Result:</strong> Around 120 infected packages blocked before they reached a single user.</p>
+          </div>
+        </article>
+
+        <!-- CASE 04 -->
+        <article style="background: #FFF9EC; color: #15192B; border: 5px solid #F3E9D4; box-shadow: 10px 10px 0 var(--red); display: flex; flex-direction: column">
+          <div class="dots-red" style="background-color: #15192B; color: #FFF9EC; padding: 22px 26px; border-bottom: 5px solid var(--red); display: flex; flex-direction: column; gap: 8px">
+            <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold)">Case 04 · N R Crew</span>
+            <h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 46px; line-height: 0.95; text-transform: uppercase; text-shadow: 3px 3px 0 var(--red)">The 35-Minute Deploy</h3>
+          </div>
+          <div style="padding: 24px 26px; display: flex; flex-direction: column; gap: 14px; flex: 1">
+            <div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px; text-decoration: line-through; text-decoration-thickness: 3px; color: #6A6E80">35 min</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 30px">→</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 40px; background: var(--gold); padding: 0 10px; border: 3px solid #15192B">6 min</span><span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px">per deploy</span></div>
+            <p style="margin: 0"><strong>Problem:</strong> Deploys took 35 minutes and each team ran its own CI/CD setup.</p>
+            <p style="margin: 0"><strong>Approach:</strong> Standardised CI/CD with reusable GitHub Actions workflows, Docker and Azure Key Vault-managed secrets.</p>
+            <p style="margin: 0"><strong>Result:</strong> Deploys 83% faster, supporting 5+ releases a day.</p>
+          </div>
+        </article>
+
+        <!-- CASE 05 -->
+        <article style="background: #FFF9EC; color: #15192B; border: 5px solid #F3E9D4; box-shadow: 10px 10px 0 var(--blue); display: flex; flex-direction: column">
+          <div class="dots-red" style="background-color: #FFF9EC; color: #15192B; padding: 22px 26px; border-bottom: 5px solid #15192B; display: flex; flex-direction: column; gap: 8px">
+            <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue)">Case 05 · Zeus Learning</span>
+            <h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 46px; line-height: 0.95; text-transform: uppercase; color: var(--blue); text-shadow: 3px 3px 0 #15192B">The Copy-Paste Hydra</h3>
+          </div>
+          <div style="padding: 24px 26px; display: flex; flex-direction: column; gap: 14px; flex: 1">
+            <div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 34px; text-decoration: line-through; text-decoration-thickness: 3px; color: #6A6E80">3+ SDKs</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 30px">→</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 40px; background: var(--gold); padding: 0 10px; border: 3px solid #15192B">1 library</span></div>
+            <p style="margin: 0"><strong>Problem:</strong> Grading logic was copied across 3+ SDKs; every fix had to be made several times.</p>
+            <p style="margin: 0"><strong>Approach:</strong> Unified them into one grading library with a shared interface for 12 question types.</p>
+            <p style="margin: 0"><strong>Result:</strong> Used by 4 teams, ~60% less duplicated logic, new-engineer onboarding 30% faster.</p>
+          </div>
+        </article>
       </div>
-      <ul style="flex: 999 1 560px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Co-developed Tenderflow (ASP.NET Core, Angular, PostgreSQL), replacing spreadsheet quoting and cutting <strong style="color: #F3EEDF">quote turnaround 50%</strong>.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Standardised CI/CD with GitHub Actions, Docker and Key Vault: deploys <strong style="color: #F3EEDF">35 to 6 minutes</strong>, 5+ releases a day.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Built a pricing engine for materials and labour that eliminated ~70% of manual pricing errors.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0; border-bottom: 1px solid #222A27"><span style="color: var(--gold)">◆</span><span>Developed a .NET digital asset library on Azure for 5,000+ assets, making lookups 2× faster.</span></li>
-        <li style="display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 12px; padding: 14px 0"><span style="color: var(--gold)">◆</span><span>Optimised PostgreSQL queries and aggregations, cutting dashboard load time 45%.</span></li>
-      </ul>
-    </article>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="works" style="max-width: 1200px; margin: 0 auto; padding: 104px 32px 40px; display: flex; flex-direction: column; gap: 40px">
-    <div style="display: flex; flex-direction: column; gap: 12px">
-      <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.14em; color: var(--gold)">BUILT ON MY OWN TIME</span>
-      <h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 56px); line-height: 1.05; color: #F3EEDF">Projects, load-tested</h2>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 22px">
-      <article style="border: 1px solid #3A4541; background: #101513; padding: 30px 28px; display: flex; flex-direction: column; gap: 14px">
-        <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.12em; color: var(--gold)">.NET 10 · POSTGRESQL · RABBITMQ</span>
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 32px; line-height: 1.1; color: #F3EEDF">Payment Ledger</h3>
-        <p style="margin: 0; color: #BDB7A6">Double-entry wallet API. 400 transfers/s at 26.5 ms p95, 116,018 transactions with zero unbalanced, outbox delivery to RabbitMQ.</p>
-        <a class="textlink" href="https://github.com/MadhavRaiTrivedi" style="margin-top: auto; display: inline-flex; align-items: center; min-height: 44px; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; color: var(--gold)">VIEW CODE →</a>
-      </article>
-      <article style="border: 1px solid #3A4541; background: #101513; padding: 30px 28px; display: flex; flex-direction: column; gap: 14px">
-        <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.12em; color: var(--gold)">SIGNALR · REDIS · ANGULAR</span>
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 32px; line-height: 1.1; color: #F3EEDF">Live Auction</h3>
-        <p style="margin: 0; color: #BDB7A6">Real-time bidding for 2,000 concurrent users at 81 ms p95. Exactly one winner for 20 identical simultaneous bids, 57 tests.</p>
-        <a class="textlink" href="https://github.com/MadhavRaiTrivedi" style="margin-top: auto; display: inline-flex; align-items: center; min-height: 44px; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; color: var(--gold)">VIEW CODE →</a>
-      </article>
-      <article style="border: 1px solid #3A4541; background: #101513; padding: 30px 28px; display: flex; flex-direction: column; gap: 14px">
-        <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.12em; color: var(--gold)">PYTHON · FASTAPI · PGVECTOR</span>
-        <h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: 32px; line-height: 1.1; color: #F3EEDF">Docs Q&amp;A</h3>
-        <p style="margin: 0; color: #BDB7A6">RAG service streaming cited answers over SSE, hybrid search with RRF, crash-safe ingestion with zero duplicate chunks.</p>
-        <a class="textlink" href="https://github.com/MadhavRaiTrivedi" style="margin-top: auto; display: inline-flex; align-items: center; min-height: 44px; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; color: var(--gold)">VIEW CODE →</a>
-      </article>
     </div>
   </section>
 
-  <!-- SKILLS + EDUCATION -->
-  <section id="arsenal" style="max-width: 1200px; margin: 0 auto; padding: 104px 32px 40px; display: flex; flex-direction: column; gap: 36px">
-    <div style="display: flex; flex-direction: column; gap: 12px">
-      <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.14em; color: var(--gold)">THE ARSENAL</span>
-      <h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(36px, 4.6vw, 56px); line-height: 1.05; color: #F3EEDF">Skills</h2>
-    </div>
-    <dl style="margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(520px, 100%), 1fr)); column-gap: 48px">
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">BACKEND</dt><dd style="margin: 0; color: #D3CDBB">.NET 8/10, ASP.NET Core, REST, SignalR, RabbitMQ, Redis, EF Core, LINQ, Dapper</dd></div>
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">FRONTEND</dt><dd style="margin: 0; color: #D3CDBB">Angular, RxJS, Angular Material, micro-frontends, WCAG accessibility</dd></div>
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">LANGUAGES</dt><dd style="margin: 0; color: #D3CDBB">C#, TypeScript, JavaScript, SQL, Python, HTML/CSS</dd></div>
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">DATA</dt><dd style="margin: 0; color: #D3CDBB">PostgreSQL, MySQL, MongoDB, Elasticsearch, Qdrant, pgvector, Flyway</dd></div>
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">CLOUD</dt><dd style="margin: 0; color: #D3CDBB">Azure (App Service, Functions, Blob, Key Vault), AWS (Lambda, ECS Fargate, DynamoDB, S3, SQS, RDS), Docker, GitHub Actions</dd></div>
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">TESTING &amp; AI</dt><dd style="margin: 0; color: #D3CDBB">xUnit, pytest, Testcontainers, Vitest, RAG, vector search, OpenAI API, Azure Speech SDK</dd></div>
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27; border-bottom: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">EDUCATION</dt><dd style="margin: 0; color: #D3CDBB">B.E. Computer Engineering, Government Engineering College, Gandhinagar · 2020 to 2024 · CGPA 8.15/10</dd></div>
-      <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-top: 1px solid #222A27; border-bottom: 1px solid #222A27"><dt style="font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; color: var(--gold)">WAYS OF WORKING</dt><dd style="margin: 0; color: #D3CDBB">Agile/Scrum, sprint planning, mentoring, release communication, Jira, Git</dd></div>
-    </dl>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="summon" style="max-width: 1200px; margin: 0 auto; padding: 104px 32px 104px">
-    <div class="engrave-em" style="background-color: var(--emerald); border: 1px solid var(--gold); padding: 6px">
-      <div style="border: 1px solid rgba(232,227,211,0.25); padding: clamp(36px, 6vw, 72px); display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px">
-        <svg width="60" height="66" viewBox="0 0 200 220" aria-hidden="true"><path d="M100 8 L184 30 L184 110 C184 162 144 194 100 212 C56 194 16 162 16 110 L16 30 Z" fill="none" stroke="#C9A54E" stroke-width="8"></path><text x="100" y="138" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="700" font-size="80" fill="#C9A54E">MT</text></svg>
-        <span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.14em; color: var(--gold)">OPEN TO BACKEND &amp; FULL-STACK ROLES</span>
-        <h2 style="margin: 0; max-width: 15em; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 700; font-size: clamp(38px, 5.4vw, 68px); line-height: 1.02; color: #F3EEDF; text-wrap: balance">Have a role open? I can be on a call this week.</h2>
-        <p style="margin: 0; max-width: 32em; color: #D3CDBB">Send the job description and I'll reply within a day with how my experience maps to it.</p>
-        <a class="btn-gold" href="mailto:trivedimadhav0606@gmail.com?subject=Role%20opportunity%20for%20Madhav%20Trivedi" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 28px; background: var(--gold); color: #0B0E0D; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-weight: 500; font-size: clamp(14px, 1.8vw, 18px); word-break: break-all">trivedimadhav0606@gmail.com</a>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px">
-          <a class="btn-line" href="https://linkedin.com/in/trivedimadhav" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 20px; border: 1px solid rgba(232,227,211,0.35); color: #E8E3D3; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.12em">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></svg>
-            LINKEDIN
-          </a>
-          <a class="btn-line" href="https://github.com/MadhavRaiTrivedi" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 20px; border: 1px solid rgba(232,227,211,0.35); color: #E8E3D3; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.12em">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-            GITHUB
-          </a>
-          <a class="btn-line" href="resume.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 20px; border: 1px solid rgba(232,227,211,0.35); color: #E8E3D3; font-family: 'Cinzel', Georgia, serif; font-weight: 700; font-size: 14px; letter-spacing: 0.12em">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"></path></svg>
-            RÉSUMÉ (PDF)
-          </a>
+  <!-- ================= ROLE FIT ================= -->
+  <section id="fit" class="dots" style="border-bottom: 6px solid #15192B">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 40px; align-items: start">
+      <div style="display: flex; flex-direction: column; gap: 16px; align-items: flex-start">
+        <span style="background: var(--gold); border: 3px solid #15192B; padding: 5px 12px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase">For hiring managers</span>
+        <h2 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(46px, 5.6vw, 76px); line-height: 0.94; text-transform: uppercase; transform: skewX(-6deg); transform-origin: left bottom; color: var(--blue); text-shadow: 4px 4px 0 #15192B">What are you hiring for?</h2>
+        <p style="margin: 0; max-width: 26em; color: #353A4E">Choose the role. You'll get the three most relevant results from my work and the stack I'd bring to it.</p>
+      </div>
+      <div style="position: relative; background: #FFF9EC; border: 5px solid #15192B; box-shadow: 10px 10px 0 #15192B; padding: 24px; display: flex; flex-wrap: wrap; gap: 10px">
+        <input class="rf" type="radio" name="role" id="r1">
+        <label class="rl" for="r1" style="display: inline-flex; align-items: center; min-height: 46px; padding: 0 16px; border: 3px solid #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase">Backend / .NET</label>
+        <input class="rf" type="radio" name="role" id="r2">
+        <label class="rl" for="r2" style="display: inline-flex; align-items: center; min-height: 46px; padding: 0 16px; border: 3px solid #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase">Full-stack Angular</label>
+        <input class="rf" type="radio" name="role" id="r3">
+        <label class="rl" for="r3" style="display: inline-flex; align-items: center; min-height: 46px; padding: 0 16px; border: 3px solid #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase">AI &amp; search</label>
+        <input class="rf" type="radio" name="role" id="r4">
+        <label class="rl" for="r4" style="display: inline-flex; align-items: center; min-height: 46px; padding: 0 16px; border: 3px solid #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase">Cloud &amp; DevOps</label>
+        <input class="rf" type="radio" name="role" id="r5">
+        <label class="rl" for="r5" style="display: inline-flex; align-items: center; min-height: 46px; padding: 0 16px; border: 3px solid #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase">Tech lead</label>
+        <div class="rout" aria-live="polite" style="flex-basis: 100%; margin-top: 10px; border-top: 3px dashed #15192B; padding-top: 18px; min-height: 200px">
+          <div class="ro ro0" style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; color: #4A4F63">Select a role to see the matching evidence.</div>
+          <div class="ro ro1"><ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 8px"><li>Fault-tolerant .NET + RabbitMQ export pipeline: 1,000 packages/day, failures 8% to 0.4%.</li><li>Import pipeline for 3,000 daily uploads: 4 minutes to 45 seconds.</li><li>PostgreSQL tuning and a pricing engine: dashboards 45% faster, ~70% fewer pricing errors.</li></ul><p style="margin: 14px 0 0; font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px; color: var(--red)">C# · .NET 8/10 · ASP.NET Core · RabbitMQ · Redis · EF Core · Dapper · PostgreSQL</p></div>
+          <div class="ro ro2"><ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 8px"><li>AI question-variant feature across Angular, .NET, RabbitMQ and Python: authoring 40% faster.</li><li>Co-built Tenderflow (ASP.NET Core, Angular, PostgreSQL): quote turnaround down 50%.</li><li>Fixed memory leaks and WCAG issues across Angular micro-frontends.</li></ul><p style="margin: 14px 0 0; font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px; color: var(--red)">Angular · RxJS · TypeScript · .NET · SignalR · micro-frontends · WCAG</p></div>
+          <div class="ro ro3"><ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 8px"><li>Hybrid search and RAG on Elasticsearch + Qdrant: latency down a third, accuracy up 25%.</li><li>Metadata generated for 10K+ documents for context-aware retrieval.</li><li>AI variant generation with SymPy validation and prompt sanitisation, 3× faster at peak.</li></ul><p style="margin: 14px 0 0; font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px; color: var(--red)">RAG · Qdrant · Elasticsearch · pgvector · OpenAI API · Python · SymPy</p></div>
+          <div class="ro ro4"><ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 8px"><li>Reusable GitHub Actions + Docker + Key Vault: deploys 35 to 6 minutes, 5+ releases a day.</li><li>S3-triggered ClamAV Lambda scans blocking ~120 infected packages.</li><li>Azure App Service + Blob Storage asset library for 5,000+ assets, lookups 2× faster.</li></ul><p style="margin: 14px 0 0; font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px; color: var(--red)">AWS Lambda · ECS Fargate · S3 · SQS · Azure Functions · Docker · GitHub Actions</p></div>
+          <div class="ro ro5"><ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 8px"><li>Led execution across 5+ concurrent deliverables: delivery predictability up 15%.</li><li>Mentored 4 developers; shared grading library cut onboarding 30%.</li><li>Owned release-impact communication and escalations across support, product and engineering.</li></ul><p style="margin: 14px 0 0; font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px; color: var(--red)">Sprint planning · Mentoring · Agile/Scrum · Root-cause analysis · Jira</p></div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer style="border-top: 1px solid #222A27">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 24px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8F8A7C">
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience" style="background: var(--blue); color: #FFF9EC; border-bottom: 6px solid #15192B">
+    <div class="dots-light" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 52px">
+      <div style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start">
+        <span style="background: var(--gold); color: #15192B; border: 3px solid #15192B; padding: 5px 12px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase">The story so far</span>
+        <h2 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(48px, 6.4vw, 88px); line-height: 0.92; text-transform: uppercase; transform: skewX(-6deg); transform-origin: left bottom; text-shadow: 5px 5px 0 #15192B">Experience</h2>
+      </div>
+
+      <!-- Chapter 2 -->
+      <div style="display: flex; flex-direction: column; gap: 22px">
+        <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px; border-bottom: 4px solid #FFF9EC; padding-bottom: 12px">
+          <h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 40px; text-transform: uppercase">Chapter 2: Zeus Learning <span style="color: var(--gold)">· Software Engineer</span></h3>
+          <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 15px">Jan 2024 to Present · Mumbai</span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 20px">
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Export pipeline:</strong> fault-tolerant QTI 2.2 exports, 1,000/day, failures 8% to 0.4%, ~100 hours/month saved.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Import pipeline:</strong> 3,000 uploads/day owned end to end, 4 min to 45 s, ~120 infected packages blocked.</div>
+          <div style="background: var(--gold); color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>AI feature:</strong> question-variant generation across Angular, .NET and Python on Lambda; authoring 40% faster.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Search &amp; RAG:</strong> Elasticsearch + Qdrant, latency down a third, classification accuracy up 25%.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Shared library:</strong> 3+ grading SDKs unified for 4 teams, ~60% less duplicated logic.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Leadership:</strong> 5+ concurrent deliverables, 4 developers mentored, 200+ production issues resolved.</div>
+        </div>
+      </div>
+
+      <!-- Chapter 1 -->
+      <div style="display: flex; flex-direction: column; gap: 22px">
+        <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px; border-bottom: 4px solid #FFF9EC; padding-bottom: 12px">
+          <h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 40px; text-transform: uppercase">Chapter 1: N R Crew <span style="color: var(--gold)">· Software Developer</span></h3>
+          <span style="font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 15px">Jan 2023 to Dec 2023 · Ahmedabad</span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 20px">
+          <div style="background: var(--gold); color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Tenderflow:</strong> co-built a full-stack tendering platform (ASP.NET Core, Angular, PostgreSQL); quote turnaround down 50%.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>CI/CD:</strong> reusable GitHub Actions, Docker and Key Vault; deploys 35 to 6 minutes, 5+ releases a day.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Pricing engine:</strong> materials and labour with markups and unit conversions; ~70% fewer manual errors.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Asset library:</strong> .NET on Azure for 5,000+ assets with SAS downloads; lookups 2× faster.</div>
+          <div style="background: #FFF9EC; color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; padding: 20px"><strong>Performance:</strong> PostgreSQL batching and aggregations; dashboard load time down 45%.</div>
+          <div style="background: #15192B; color: #FFF9EC; border: 4px solid #15192B; box-shadow: 7px 7px 0 var(--gold); padding: 20px"><strong style="color: var(--gold)">Origin:</strong> B.E. Computer Engineering, Government Engineering College, Gandhinagar, 2020 to 2024, CGPA 8.15/10.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="dots" style="border-bottom: 6px solid #15192B">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 40px">
+      <div style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start">
+        <span style="background: var(--red); color: #FFF9EC; border: 3px solid #15192B; padding: 5px 12px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase">Bonus issues</span>
+        <h2 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(48px, 6.4vw, 88px); line-height: 0.92; text-transform: uppercase; transform: skewX(-6deg); transform-origin: left bottom; text-shadow: 4px 4px 0 var(--gold)">Side projects, load-tested</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 28px">
+        <article style="background: #FFF9EC; border: 5px solid #15192B; box-shadow: 9px 9px 0 #15192B; display: flex; flex-direction: column">
+          <div style="background: var(--red); color: #FFF9EC; border-bottom: 5px solid #15192B; padding: 16px 20px"><h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 36px; text-transform: uppercase; text-shadow: 3px 3px 0 #15192B">Payment Ledger</h3></div>
+          <div style="padding: 20px; display: flex; flex-direction: column; gap: 12px; flex: 1"><p style="margin: 0">Double-entry wallet API: <strong>400 transfers/s at 26.5 ms p95</strong>, 116,018 transactions, zero unbalanced.</p><span style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px">.NET 10 · PostgreSQL · RabbitMQ</span><a class="lift" href="https://github.com/MadhavRaiTrivedi" style="align-self: flex-start; margin-top: auto; display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; background: #15192B; color: #FFF9EC; border: 3px solid #15192B; box-shadow: 5px 5px 0 var(--red); font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase">View code</a></div>
+        </article>
+        <article style="background: #FFF9EC; border: 5px solid #15192B; box-shadow: 9px 9px 0 #15192B; display: flex; flex-direction: column">
+          <div style="background: var(--blue); color: #FFF9EC; border-bottom: 5px solid #15192B; padding: 16px 20px"><h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 36px; text-transform: uppercase; text-shadow: 3px 3px 0 #15192B">Live Auction</h3></div>
+          <div style="padding: 20px; display: flex; flex-direction: column; gap: 12px; flex: 1"><p style="margin: 0">Real-time bidding: <strong>2,000 concurrent users at 81 ms p95</strong>, exactly one winner for 20 identical simultaneous bids.</p><span style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px">.NET · SignalR · Redis · Angular</span><a class="lift" href="https://github.com/MadhavRaiTrivedi" style="align-self: flex-start; margin-top: auto; display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; background: #15192B; color: #FFF9EC; border: 3px solid #15192B; box-shadow: 5px 5px 0 var(--blue); font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase">View code</a></div>
+        </article>
+        <article style="background: #FFF9EC; border: 5px solid #15192B; box-shadow: 9px 9px 0 #15192B; display: flex; flex-direction: column">
+          <div style="background: var(--gold); color: #15192B; border-bottom: 5px solid #15192B; padding: 16px 20px"><h3 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: 36px; text-transform: uppercase; color: #FFF9EC; text-shadow: 3px 3px 0 #15192B">Docs Q&amp;A</h3></div>
+          <div style="padding: 20px; display: flex; flex-direction: column; gap: 12px; flex: 1"><p style="margin: 0">RAG service streaming <strong>cited answers over SSE</strong>, hybrid search with RRF, crash-safe ingestion.</p><span style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 14px">Python · FastAPI · pgvector · OpenAI</span><a class="lift" href="https://github.com/MadhavRaiTrivedi" style="align-self: flex-start; margin-top: auto; display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; background: #15192B; color: #FFF9EC; border: 3px solid #15192B; box-shadow: 5px 5px 0 var(--gold); font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase">View code</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" style="background: #FFF9EC; border-bottom: 6px solid #15192B">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 36px">
+      <div style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start">
+        <span style="background: var(--blue); color: #FFF9EC; border: 3px solid #15192B; padding: 5px 12px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase">Equipment</span>
+        <h2 style="margin: 0; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(48px, 6.4vw, 88px); line-height: 0.92; text-transform: uppercase; transform: skewX(-6deg); transform-origin: left bottom; text-shadow: 4px 4px 0 var(--gold)">Technical skills</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 4px; background: #15192B; border: 4px solid #15192B; box-shadow: 9px 9px 0 #15192B">
+        <div style="background: #FFF9EC; padding: 22px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 24px; text-transform: uppercase; color: var(--red)">Backend</span><span>.NET 8/10, ASP.NET Core, REST APIs, SignalR, RabbitMQ, Redis, EF Core, LINQ, Dapper</span></div>
+        <div style="background: #FFF9EC; padding: 22px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 24px; text-transform: uppercase; color: var(--red)">Frontend</span><span>Angular, RxJS, Angular Material, micro-frontends, WCAG accessibility</span></div>
+        <div style="background: #FFF9EC; padding: 22px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 24px; text-transform: uppercase; color: var(--red)">Languages</span><span>C#, TypeScript, JavaScript, SQL, Python, HTML/CSS</span></div>
+        <div style="background: #FFF9EC; padding: 22px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 24px; text-transform: uppercase; color: var(--red)">Data</span><span>PostgreSQL, MySQL, MongoDB, Elasticsearch, Qdrant, pgvector, Flyway</span></div>
+        <div style="background: #FFF9EC; padding: 22px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 24px; text-transform: uppercase; color: var(--red)">Cloud &amp; DevOps</span><span>Azure (App Service, Functions, Blob, Key Vault), AWS (Lambda, ECS Fargate, DynamoDB, S3, SQS, RDS), Docker, GitHub Actions</span></div>
+        <div style="background: #FFF9EC; padding: 22px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 24px; text-transform: uppercase; color: var(--red)">Testing &amp; AI</span><span>xUnit, pytest, Testcontainers, Vitest, RAG, vector search, SymPy, OpenAI API, Azure Speech SDK</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT + SECRET ================= -->
+  <section id="contact" style="background: var(--red); color: #FFF9EC">
+    <div class="dots-red" style="max-width: 1240px; margin: 0 auto; padding: 104px 32px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 28px">
+      <span style="background: #15192B; border: 3px solid #FFF9EC; padding: 5px 12px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase">Next issue: your team</span>
+      <h2 style="margin: 0; max-width: 13em; font-family: 'Anton', Impact, sans-serif; font-weight: 400; font-size: clamp(50px, 7.4vw, 108px); line-height: 0.9; text-transform: uppercase; transform: skewX(-6deg); text-shadow: 6px 6px 0 #15192B; text-wrap: balance">Got a system that has to hold up? Let's talk.</h2>
+      <p style="margin: 0; max-width: 32em; font-size: 18px">Send me the job description. I'll reply within a day with how my experience maps to it.</p>
+      <a class="lift" href="mailto:trivedimadhav0606@gmail.com?subject=Role%20opportunity%20for%20Madhav%20Trivedi" style="display: inline-flex; align-items: center; min-height: 58px; padding: 0 28px; background: var(--gold); color: #15192B; border: 4px solid #15192B; box-shadow: 7px 7px 0 #15192B; font-family: 'Anton', Impact, sans-serif; font-size: clamp(20px, 2.4vw, 28px); letter-spacing: 0.04em; word-break: break-all">trivedimadhav0606@gmail.com</a>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 14px">
+        <a class="lift" href="https://linkedin.com/in/trivedimadhav" style="display: inline-flex; align-items: center; gap: 10px; min-height: 50px; padding: 0 20px; background: #FFF9EC; color: #15192B; border: 3px solid #15192B; box-shadow: 5px 5px 0 #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"></path></svg>LinkedIn</a>
+        <a class="lift" href="https://github.com/MadhavRaiTrivedi" style="display: inline-flex; align-items: center; gap: 10px; min-height: 50px; padding: 0 20px; background: #FFF9EC; color: #15192B; border: 3px solid #15192B; box-shadow: 5px 5px 0 #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>GitHub</a>
+        <a class="lift" href="resume.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 50px; padding: 0 20px; background: #FFF9EC; color: #15192B; border: 3px solid #15192B; box-shadow: 5px 5px 0 #15192B; font-family: 'Anton', Impact, sans-serif; font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"></path></svg>Résumé</a>
+      </div>
+
+      <!-- secret panel -->
+      <details class="secret" style="margin-top: 26px; width: 100%; max-width: 760px; text-align: left">
+        <summary style="display: flex; justify-content: center; transition: transform .12s ease">
+          <span style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 20px; background: #15192B; color: var(--gold); border: 3px dashed var(--gold); font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 15px; letter-spacing: 0.1em; text-transform: uppercase; transform: rotate(-2deg)"><span class="closed-label">Classified: for hiring managers only. Open file</span><span class="open-label">Close classified file</span></span>
+        </summary>
+        <div style="margin-top: 20px; background: #FFF9EC; color: #15192B; border: 5px solid #15192B; box-shadow: 10px 10px 0 #15192B; padding: 26px; display: flex; flex-direction: column; gap: 14px">
+          <span style="align-self: flex-start; border: 3px solid var(--red); color: var(--red); padding: 2px 10px; font-family: 'Anton', Impact, sans-serif; font-size: 22px; letter-spacing: 0.08em; text-transform: uppercase; transform: rotate(-3deg)">Top secret</span>
+          <p style="margin: 0"><strong>Roles I'm targeting:</strong> Backend Engineer, Full-Stack .NET/Angular Engineer, Senior Software Engineer track.</p>
+          <p style="margin: 0"><strong>How I work:</strong> I measure before and after every change, run root-cause analysis instead of patching symptoms, communicate release impact across support and product, and mentor as I go.</p>
+          <p style="margin: 0"><strong>Location:</strong> Mumbai, India. Open to relocation.</p>
+          <p style="margin: 0"><strong>Fastest way to reach me:</strong> <a href="mailto:trivedimadhav0606@gmail.com?subject=Role%20opportunity%20for%20Madhav%20Trivedi" style="color: var(--blue); text-decoration: underline; text-underline-offset: 3px; font-weight: 700">email with the job description</a>. I reply within a day.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer style="background: #15192B; color: #CFC6B2; border-top: 6px solid var(--gold)">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 22px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px">
       <span>© 2026 Madhav Trivedi · Backend &amp; Full-Stack .NET Engineer</span>
-      <span>Mumbai, India · madhavtrivedi.github.io</span>
+      <span>To be continued · madhavtrivedi.github.io</span>
     </div>
   </footer>
 </div>
